@@ -25,7 +25,7 @@ module.exports = function(defaults) {
   app.import('bower_components/amcharts3/amcharts/pie.js');
   app.import('bower_components/amcharts3/amcharts/serial.js');
 
-  app.import('bower_components/humanize-plus/dist/humanize.js');
+  // app.import('bower_components/humanize-plus/dist/humanize.js');
 
   return app.toTree();
 };
